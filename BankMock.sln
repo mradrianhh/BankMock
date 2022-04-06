@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankMock.Identity.Core", "B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankMock.Identity.Core.Tests", "BankMock.Identity.Core.Tests\BankMock.Identity.Core.Tests.csproj", "{B6911F87-9F27-4250-9090-AD71618CD183}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankMock.BankAccounts.Core", "BankMock.BankAccounts.Core\BankMock.BankAccounts.Core.csproj", "{31F9251C-94D9-4E51-88FC-D7F4F87B8816}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankMock.BankAccounts.Core.Tests", "BankMock.BankAccounts.Core.Tests\BankMock.BankAccounts.Core.Tests.csproj", "{2D0E7EEA-77F0-46F6-A929-995A923A02CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +45,14 @@ Global
 		{B6911F87-9F27-4250-9090-AD71618CD183}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6911F87-9F27-4250-9090-AD71618CD183}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6911F87-9F27-4250-9090-AD71618CD183}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31F9251C-94D9-4E51-88FC-D7F4F87B8816}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31F9251C-94D9-4E51-88FC-D7F4F87B8816}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31F9251C-94D9-4E51-88FC-D7F4F87B8816}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31F9251C-94D9-4E51-88FC-D7F4F87B8816}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D0E7EEA-77F0-46F6-A929-995A923A02CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D0E7EEA-77F0-46F6-A929-995A923A02CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D0E7EEA-77F0-46F6-A929-995A923A02CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D0E7EEA-77F0-46F6-A929-995A923A02CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
