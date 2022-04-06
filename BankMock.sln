@@ -1,21 +1,24 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30114.105
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankMock.Core", "BankMock.Core\BankMock.Core.csproj", "{2F767CB4-9BAC-4489-AB7C-FFD39ED082CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankMock.Core", "BankMock.Core\BankMock.Core.csproj", "{2F767CB4-9BAC-4489-AB7C-FFD39ED082CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankMock.Core.Tests", "BankMock.Core.Tests\BankMock.Core.Tests.csproj", "{A6C2CB51-E8BC-441D-BE36-B54A73629A81}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankMock.Core.Tests", "BankMock.Core.Tests\BankMock.Core.Tests.csproj", "{A6C2CB51-E8BC-441D-BE36-B54A73629A81}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankMock.Desktop", "BankMock.Desktop\BankMock.Desktop.csproj", "{2B1ADD32-394D-4160-8087-1046675E0313}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankMock.Desktop", "BankMock.Desktop\BankMock.Desktop.csproj", "{2B1ADD32-394D-4160-8087-1046675E0313}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A3E2DB9E-A48F-4ADC-894E-7B0097738AC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankMock.Identity.Core", "BankMock.Identity.Core\BankMock.Identity.Core.csproj", "{AB713129-0713-4E7E-8046-2177BF9775B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankMock.Identity.Core.Tests", "BankMock.Identity.Core.Tests\BankMock.Identity.Core.Tests.csproj", "{B6911F87-9F27-4250-9090-AD71618CD183}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{2F767CB4-9BAC-4489-AB7C-FFD39ED082CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -30,5 +33,19 @@ Global
 		{2B1ADD32-394D-4160-8087-1046675E0313}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B1ADD32-394D-4160-8087-1046675E0313}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B1ADD32-394D-4160-8087-1046675E0313}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB713129-0713-4E7E-8046-2177BF9775B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB713129-0713-4E7E-8046-2177BF9775B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB713129-0713-4E7E-8046-2177BF9775B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB713129-0713-4E7E-8046-2177BF9775B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6911F87-9F27-4250-9090-AD71618CD183}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6911F87-9F27-4250-9090-AD71618CD183}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6911F87-9F27-4250-9090-AD71618CD183}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6911F87-9F27-4250-9090-AD71618CD183}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {487D81D6-6472-43C3-A690-F6B256C1912D}
 	EndGlobalSection
 EndGlobal
