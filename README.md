@@ -30,8 +30,8 @@
 
 # Components
 
-User:
-	fields:
+- User
+	- fields
 		- List<BankAccount>
 		- First Name
 		- Last Name
@@ -45,21 +45,21 @@ User:
 		- Postal number
 		- City
 		- DateCreated
-	methods:
+	- methods
 
 
-BankAccount:
-	fields:
+- BankAccount
+	- fields
 		- AccountNumber(ID)
 		- AccountOwner(Social security number)
 		- Account type
 		- Currency
 		- Amount
 		- DateCreated
-	methods:
+	- methods
 
-Bill:
-	fields:
+- Bill
+	- fields
 		- KID(ID)
 		- TargetAccountNumber
 		- InvoiceDescription
@@ -68,8 +68,8 @@ Bill:
 		- DueDate
 		- Issuer
 
-Transaction:
-	fields:
+- Transaction
+	- fields
 		- TargetAccountNumber
 		- SourceAccountNumber
 		- Amount
@@ -79,31 +79,31 @@ Transaction:
 
 # Services
 
-IdentityService:
+- IdentityService
 	- Validate login
 	- Create new user.
 
-TransactionService:
+- TransactionService
 	- Return transactions from a given account.
 	- Create new transaction.
 
-AccountService:
+- AccountService
 	- Return bankaccounts for a given user.
 	- Create new bankaccount.
 
-BillsService:
+- BillsService
 	- Return bills for a given user.
 
 # Requirements
 
-User:
+- User
 	- Throws an InvalidOperationException if the user attempts to delete his last BankAccount.
 	- Assert that upon creation, the user has one BankAccount and it is equal to the default BankAccount.
 	- Throws an ArgumentNullException if any of the fields are null.
 	- Throws an InvalidArgumentException if the BirthDate is such that his age is not greater then or equal to 18 years.
 	- Assert that the social security number is valid.
 
-Transaction:
+- Transaction
 	- Throws an ArgumentNullException if any of the fields are null upon creation.
 	- Throws an InvalidArgumentException if the amount is not greater then 0 upon creation.
 	- Throws an InvalidArgumentException if the TargetAccountNumber is equal to the SourceAccountNumber upon creation.
@@ -114,12 +114,12 @@ Transaction:
 	- Assert that the amount in the TargetAccount has increased by the transaction amount.
 	- Assert that the amount in the SourceAccount has decreased by the transaction amount.
 
-BankAccount:
+- BankAccount
 	- Throws an ArgumentNullException if any of the fields are null upon creation.
 	- Assert that the amount in the account is 0 upon creation.
 	- Throws a ValidationFailedException if it catches an ArgumentNullException upon creation.
 
-Bill:
+- Bill
 	- Throws an InvalidArgumentException if it can not resolve the TargetAccountNumber.
 	- Throws an ArgumentNullException if any of the fields are 0.
 	- Throws an InvalidArgumentException if the amount is less then or equal to 0.
