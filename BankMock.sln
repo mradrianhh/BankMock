@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankMock.BankAccounts.Core"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankMock.BankAccounts.Core.Tests", "BankMock.BankAccounts.Core.Tests\BankMock.BankAccounts.Core.Tests.csproj", "{2D0E7EEA-77F0-46F6-A929-995A923A02CF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankMock.Transactions.Core", "BankMock.Transactions.Core\BankMock.Transactions.Core.csproj", "{89E6DEA2-08EE-4063-B59D-C84DBACFAAB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankMock.Transactions.Core.Tests", "BankMock.Transactions.Core.Tests\BankMock.Transactions.Core.Tests.csproj", "{0ECC5905-70A1-4CFB-954F-53CF23B72008}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,6 +57,14 @@ Global
 		{2D0E7EEA-77F0-46F6-A929-995A923A02CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D0E7EEA-77F0-46F6-A929-995A923A02CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D0E7EEA-77F0-46F6-A929-995A923A02CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89E6DEA2-08EE-4063-B59D-C84DBACFAAB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89E6DEA2-08EE-4063-B59D-C84DBACFAAB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89E6DEA2-08EE-4063-B59D-C84DBACFAAB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89E6DEA2-08EE-4063-B59D-C84DBACFAAB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0ECC5905-70A1-4CFB-954F-53CF23B72008}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0ECC5905-70A1-4CFB-954F-53CF23B72008}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0ECC5905-70A1-4CFB-954F-53CF23B72008}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0ECC5905-70A1-4CFB-954F-53CF23B72008}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
