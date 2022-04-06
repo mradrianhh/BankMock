@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankMock.Core", "BankMock.Core\BankMock.Core.csproj", "{2F767CB4-9BAC-4489-AB7C-FFD39ED082CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankMock.Core.Tests", "BankMock.Core.Tests\BankMock.Core.Tests.csproj", "{A6C2CB51-E8BC-441D-BE36-B54A73629A81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankMock.Desktop", "BankMock.Desktop\BankMock.Desktop.csproj", "{2B1ADD32-394D-4160-8087-1046675E0313}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F767CB4-9BAC-4489-AB7C-FFD39ED082CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F767CB4-9BAC-4489-AB7C-FFD39ED082CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F767CB4-9BAC-4489-AB7C-FFD39ED082CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F767CB4-9BAC-4489-AB7C-FFD39ED082CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6C2CB51-E8BC-441D-BE36-B54A73629A81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6C2CB51-E8BC-441D-BE36-B54A73629A81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6C2CB51-E8BC-441D-BE36-B54A73629A81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6C2CB51-E8BC-441D-BE36-B54A73629A81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B1ADD32-394D-4160-8087-1046675E0313}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B1ADD32-394D-4160-8087-1046675E0313}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B1ADD32-394D-4160-8087-1046675E0313}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B1ADD32-394D-4160-8087-1046675E0313}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
