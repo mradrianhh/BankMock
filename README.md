@@ -76,6 +76,9 @@
 		- Currency
 		- Date
 
+- View
+	- Holds 
+
 
 # Services
 
